@@ -15,11 +15,11 @@ export const navReducer = (state = initialState, action) => {
   return nextState || state;
 };
 
-const Navigator = () => (
+const Navigator = ({ dispatch, nav }) => (
   <AppNavigator
     navigation={addNavigationHelpers({
-      dispatch: this.props.dispatch,
-      state: this.props.nav,
+      dispatch,
+      state: nav,
     })}
   />
 );

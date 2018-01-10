@@ -4,7 +4,9 @@ import { connect } from "react-redux";
 
 import LoginScreen from "./components/LoginScreen";
 
-const AppNavigator = StackNavigator({ Login: { screen: LoginScreen } });
+const AppNavigator = StackNavigator({
+  Login: { screen: LoginScreen, navigationOptions: { header: null } },
+});
 
 const initialState = AppNavigator.router.getStateForAction(AppNavigator.router.getActionForPathAndParams("Login"));
 

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "327178082254",
+    "firebase_url": "https://hookah-fast.firebaseio.com",
+    "project_id": "hookah-fast",
+    "storage_bucket": "hookah-fast.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327178082254:android:c0bfff45b8b1fa8a",
+        "android_client_info": {
+          "package_name": "com.hookahfast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327178082254-e88e6t0pa8cds37q2ipbdttgp7k3v3fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyCc03qVuEs6WCDkxOWh3538dL-IN4gFs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
